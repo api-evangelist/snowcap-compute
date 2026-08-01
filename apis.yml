@@ -1,8 +1,12 @@
 aid: snowcap-compute
 name: Snowcap Compute
-description: 'Snowcap Compute is a company surfaced as a portfolio company of playground-global and added
-  to the API Evangelist network as a stub for enrichment. Sector: compute. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Snowcap Compute is building the world''s first commercial superconducting
+  computing platform, operating at 4.5 Kelvin to deliver breakthrough energy efficiency
+  and performance for AI and data-center workloads. Launched in June 2025 with $23
+  million in seed funding led by Playground Global, the company is developing superconducting
+  chips and systems aimed at the next era of AI and quantum-adjacent compute. As a
+  hardware and deep-tech company it publishes a marketing and careers presence but
+  no public API, developer portal, or SDK at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/snowcap-compute/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,30 @@ x-backed-by:
 - playground-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.snowcapcompute.com/img/webp/snowcap_webclip.webp
 tags:
 - Company
 - Compute
+- Superconducting
+- Semiconductor
+- Hardware
+- Artificial Intelligence
+- Data Center
+- Deep Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/snowcap-compute-domain-security.yml
 - type: Website
   url: https://www.snowcapcompute.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/snowcapcompute/
+- type: Careers
+  url: https://jobs.snowcapcompute.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

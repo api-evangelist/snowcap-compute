@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.snowcapcompute.com/
+host: https://www.snowcapcompute.com
+note: >-
+  Snowcap Compute publishes a single-page marketing site for a superconducting
+  computing hardware product; it exposes no /.well-known discovery surface. All
+  probed paths returned 404. Recorded here as valid absence-of-record data.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
